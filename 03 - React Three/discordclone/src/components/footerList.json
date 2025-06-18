@@ -1,0 +1,39 @@
+[
+    {
+        "heading": "Product",
+        "one": "Download",
+        "two": "Nitro",
+        "three": "Status"
+    },
+    {
+        "heading": "Company",
+        "one": "About",
+        "two": "Jobs",
+        "three": "Brand",
+        "four": "Newsroom"
+    },
+    {
+        "heading": "Resources",
+        "one": "College",
+        "two": "Support",
+        "three": "Safety",
+        "four": "Blog",
+        "five": "Feedback",
+        "six": "Build",
+        "seven": "StreamKit",
+        "eight": "Creators",
+        "nine": "Community",
+        "ten": "Official 3rd Party Merch"
+    },
+    {
+        "heading": "Policies",
+        "one": "Terms",
+        "two": "Privacy",
+        "three": "Cookies Setting",
+        "four": "Guidelines",
+        "five": "Acknowledgement",
+        "six": "Licences",
+        "seven": "Moderation",
+        "eight": "Company Information"
+    }
+]

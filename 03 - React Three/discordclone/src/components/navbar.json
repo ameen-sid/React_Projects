@@ -1,0 +1,30 @@
+[
+    {
+        "to": "/download",
+        "value": "Download"
+    },
+    {
+        "to": "/",
+        "value": "Nitro"
+    },
+    {
+        "to": "/",
+        "value": "Discover"
+    },
+    {
+        "to": "/",
+        "value": "Safety"
+    },
+    {
+        "to": "/",
+        "value": "Support"
+    },
+    {
+        "to": "/",
+        "value": "Blog"
+    },
+    {
+        "to": "/",
+        "value": "Career"
+    }
+]
