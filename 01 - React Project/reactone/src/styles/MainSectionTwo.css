@@ -1,0 +1,17 @@
+.main_section_two_pic {
+    /* bg-[url('../assets/secondBackground.jpg')]  */
+    background: url('../assets/secondBackground.jpg');
+    background-size: cover;
+    filter: contrast(1);
+}
+
+.main_section_two_div {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: black; */
+
+}
+
+.greenHr {
+    border: 3px solid rgb(132 204 22) ;
+    width: 100px;
+}

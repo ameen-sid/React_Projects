@@ -1,0 +1,9 @@
+.banner_pic {
+    /* bg-[url('firstBackground.jpeg')]  */
+    background: url('../assets/firstBackground.jpeg');
+    /* background-size: cover; */
+}
+
+.banner_div {
+    background-color: rgba(0, 0, 0, 0.5);
+}

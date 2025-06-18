@@ -1,0 +1,9 @@
+.footer_section_one_pic {
+    /* bg-[url('../assets/secondBackground.jpg')] bg-cover */
+    background: url('../assets/secondBackground.jpg');
+    background-size: cover;
+}
+
+.footer_section_one_div {
+    background-color: rgba(132, 204, 22, 0.8);
+}
