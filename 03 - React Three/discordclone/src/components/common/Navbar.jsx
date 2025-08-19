@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/removeLogo.png";
+import logo from "../../assets/removeLogo.png";
 import data from "../../data/navbar.json";
 
 const Navbar = (props) => {
