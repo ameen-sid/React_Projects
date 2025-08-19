@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 💬 Discord Website Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📄 **Description**
 
-## Available Scripts
+This project is a static website that clones the main landing pages of the popular communication platform, Discord. Built with **React** and standard **CSS**, it's a portfolio piece demonstrating skill in front-end development, responsive design, and component-based architecture. The project includes the home page and the download page, replicating Discord's modern and distinctive UI.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ **Features**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   **Responsive Design**: The website is fully responsive, providing a seamless user experience across various devices and screen sizes.
+-   **Component-Based UI**: The user interface is broken down into reusable React components for easy maintenance and scalability.
+-   **Home Page**: A replica of the main Discord landing page with a hero section, feature highlights, and a comprehensive footer.
+-   **Download Page**: A dedicated page showcasing different versions of the Discord application for various operating systems.
+-   **Asset Management**: All images and icons are organized and managed efficiently within the `assets` folder.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ **Tech Stack**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **React.js**: A JavaScript library for building user interfaces.
+-   **JavaScript (JSX)**: The programming language for application logic and templating.
+-   **CSS**: For all styling, layout, and visual presentation.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 **Folder Structure**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project is structured logically for clarity and ease of navigation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+└── 📁discordclone
+	├── 📁public // Contains the main HTML file and other public assets
+	│ 	├── index.html
+	│ 	└── ...
+	└── 📁src // All source code
+		├── 📁assets // Stores all image and SVG assets
+		│ 	├── downlaodHeaderLaptop.svg
+		│ 	└── ...
+		├── 📁components // Reusable React components
+		│ 	├── 📁common // Shared components like Navbar
+		│ 	├── 📁download // Components specific to the Download page
+		│ 	├── 📁home // Components specific to the Home page
+		│ 	├── 📁footer
+		│ 	├── 📁header
+		│ 	└── 📁main
+		├── 📁data // JSON files for static data (e.g., navigation links)
+		├── 📁pages // React components for different pages
+		│ 	├── Download.jsx
+		│ 	└── Home.jsx
+		├── 📁styles // Global and modular CSS files
+		│ 	└── style.css
+		├── App.js // The root component that manages routing
+		└── index.js // The entry point for the React application
+```
