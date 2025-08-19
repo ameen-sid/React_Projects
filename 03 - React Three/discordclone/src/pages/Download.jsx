@@ -1,14 +1,13 @@
-import React from 'react'
-import DownloadHeader from '../components/DownloadHeader'
-import DownloadMidSection from '../components/DownloadMidSection'
+import DownloadHeader from "../components/download/DownloadHeader";
+import DownloadMidSection from "../components/download/DownloadMidSection";
 
 const Download = () => {
-  return (
-    <>
-      <DownloadHeader />
-      <DownloadMidSection />
-    </>
-  )
-}
+	return (
+		<>
+			<DownloadHeader />
+			<DownloadMidSection />
+		</>
+	);
+};
 
-export default Download
+export default Download;
